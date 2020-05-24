@@ -1,0 +1,21 @@
+body {
+padding: 0; /*обнуляємо всі стандартні відступи браузера*/
+margin: 0;
+background: #white;
+}
+.main {
+margin-left: 22.5;
+height: 190px; /*висота блоку (для прикладу 250px)*/
+margin: 0 2% 0 0; /*відступ зверху та справа – по 2%*/
+background-color: yellow;
+}
+
+.kol {
+margin-left: 200;
+height: 280px; /*висота блоку (для прикладу 250px)*/
+width:250px;
+margin: 0% 0% 0% 0%; /*відступ зверху та справа – по 2%*/
+background-color: yellow;
+}
+
+
