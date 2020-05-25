@@ -1,0 +1,139 @@
+nav { 
+
+    padding: 10px; 
+
+} 
+
+ 
+
+.roboto { 
+
+    font-family: 'Roboto', sans-serif; 
+
+} 
+
+nav div ul { 
+
+    text-align: center; 
+
+} 
+
+ul li { 
+
+    display: inline-block; 
+
+    padding: 0 5em; 
+
+} 
+
+ 
+
+ nav div a { 
+
+     text-decoration: none; 
+
+     color: #000; 
+
+ } 
+
+ 
+
+ nav div a:visited { 
+
+    color: #000; 
+
+ } 
+
+ 
+
+ nav div a:hover { 
+
+     color: #ffe400; 
+
+ } 
+
+ 
+
+ main article div { 
+
+     border: 0.1em solid #000; 
+
+     width: 70%; 
+
+     margin: 20px auto; 
+
+     box-shadow: 5px 5px; 
+
+ } 
+
+ 
+
+ main article p { 
+
+     font-family: 'Pt Sans Caprion', sans-serif; 
+
+     text-align: center; 
+
+     padding: 25px; 
+
+     font-size: 95%; 
+
+ } 
+
+ 
+
+ .important { 
+
+     background-color: #ffe400; 
+
+     font-weight: bold; 
+
+ } 
+
+ 
+
+ #header { 
+
+     position: relative; 
+
+     width: 100%; 
+
+     height: 150px; 
+
+     background: linear-gradient(45deg, #ffe400, #ffffff); 
+
+ } 
+
+ 
+
+ #header h1 { 
+
+     position: absolute; 
+
+     top: -70%; 
+
+     left: -0.5%; 
+
+     font-size: 10em; 
+
+     letter-spacing: 0.1em; 
+
+ } 
+
+ 
+
+ ::-webkit-scrollbar { 
+
+    background-color: #e0dfd3; 
+
+    width: 10px; 
+
+} 
+
+ 
+
+::-webkit-scrollbar-thumb { 
+
+    background: #000; 
+
+    border-radius: 10px; 
