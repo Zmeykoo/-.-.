@@ -20,15 +20,41 @@
                 <li><a href="#home" class="roboto"><h3>home</h3></a></li>
                 <li><a href="#browse" class="roboto"><h3>browse socks</h3></a></li>
                 <li><a href="#cart" class="roboto"><h3>shopping cart</h3></a></li>
-                <li><a href="#contact" class="roboto"><h3>contact us</h3></a></li>
+				<li class="header-nav__item">
+				<div class="dropdown">
+					<button class="dropbtn"><li><a href="#contact" class="roboto"><h3>contact us</h3></a></li></button>
+					<div class="dropdown-content">
+					  <ul>
+						<li>
+						  <a href="#">093582784</a>
+						</li>
+						<li>
+						  <a href="#">050767677</a>
+						</li>
+					</ul>
+				</div>
+				</li>
             </ul>
         </div>
     </nav>
     <main>
         <article>
-            <div><p><span class="important">"Welcome"</span>
+            <div><p><span class="important">Soggy Socks це онлайн магазин шкрпеток</span>
+			<h1><p>Наш каталог</p></h1>
+			<p><img src="karantyn_01.jpg" width="300" height="311" alt="Каталог 1"></p>
+			<p><img src="aristocrats_01.jpg" width="300" height="311" alt="Каталог 2"></p>
         </article>
     </main>
+		<div class="form">
+		<form action="Index.html" method="GET">
+			<label for="First_name">Your username: </label> <input type="text" name="First_name" placeholder="Enter your username"> <br>
+			<label for="password">Your password: </label> <input type="password" name="password" placeholder="Enter your password"> <br>
+			<label for="sex">Your male: </label> <input type="radio" value="male" name="sex"> 
+			Male | <input type="radio" value="female" name="sex">Female <br>
+			<textarea name="Comment" placeholder="Please, leave comment here"></textarea> <br>
+			<p><button>Send</button>
+		</form>
+		</div>
     <footer>
         <div>
             <h5 class="roboto"><span class="important">2020 &copy;</span></h5>
